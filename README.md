@@ -40,38 +40,44 @@ A full-featured **Support Ticketing System** with real-time capabilities, built 
 
 ### Backend (Laravel 12 + Lighthouse)
 
-```bash
-# Clone the repository
-git clone https://github.com/HebaAbdElhamed/realtime-support-ticketing-system.git
-cd realtime-support-ticketing-system
+🚀 Getting Started
+The project is structured into two main parts:
+
+support-ticket-system-laravel → Laravel 12 backend with Lighthouse GraphQL
+
+support-ticket-system-react → React frontend with Apollo Client
+
+📦 Backend Setup (Laravel 12 + Lighthouse)
+bash
+Copy
+Edit
+# Navigate to the backend directory
+cd support-ticket-system-laravel
 
 # Install PHP dependencies
 composer install
 
-# Configure environment
+# Create environment file and generate app key
 cp .env.example .env
 php artisan key:generate
 
-# Migrate the database
+# Run database migrations
 php artisan migrate
 
-# Run the server
+# Start the Laravel development server
 php artisan serve
-```
-
-### Frontend (React + Apollo)
-
-```bash
-cd ../frontend
+💻 Frontend Setup (React + Apollo)
+bash
+Copy
+Edit
+# Open a new terminal and navigate to the frontend directory
+cd support-ticket-system-react
 
 # Install JS dependencies
 npm install
 
-# Run development server
+# Start the React development server
 npm run dev
-```
-
----
 
 ## 🔐 Authentication
 
