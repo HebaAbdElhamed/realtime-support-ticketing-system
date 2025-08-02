@@ -34,23 +34,19 @@ A full-featured **Support Ticketing System** with real-time capabilities, built 
 | Icons        | React Icons                            |
 | Email        | Laravel Mail for OTP & Magic Links     |
 
+
 ---
 
-## 📦 Installation
+## 🚀 Getting Started
 
-### Backend (Laravel 12 + Lighthouse)
-
-🚀 Getting Started
 The project is structured into two main parts:
 
-support-ticket-system-laravel → Laravel 12 backend with Lighthouse GraphQL
+- `support-ticket-system-laravel` → Laravel 12 backend with Lighthouse GraphQL
+- `support-ticket-system-react` → React frontend with Apollo Client
 
-support-ticket-system-react → React frontend with Apollo Client
+### 📦 Backend Setup (Laravel 12 + Lighthouse)
 
-📦 Backend Setup (Laravel 12 + Lighthouse)
-bash
-Copy
-Edit
+```bash
 # Navigate to the backend directory
 cd support-ticket-system-laravel
 
@@ -66,10 +62,13 @@ php artisan migrate
 
 # Start the Laravel development server
 php artisan serve
-💻 Frontend Setup (React + Apollo)
-bash
-Copy
-Edit
+```
+
+---
+
+### 💻 Frontend Setup (React + Apollo)
+
+```bash
 # Open a new terminal and navigate to the frontend directory
 cd support-ticket-system-react
 
@@ -78,6 +77,9 @@ npm install
 
 # Start the React development server
 npm run dev
+```
+
+---
 
 ## 🔐 Authentication
 
