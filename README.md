@@ -92,14 +92,8 @@ npm run dev
 
 ## 📸 Screenshots
 
-![App Screenshot](readmeImage.PNG)
+![App Screenshot](readmeImage.png)
 
-```
-📂 screenshots/
-├── dashboard.png
-├── chat-view.png
-└── notifications.png
-```
 
 ---
 
