@@ -92,7 +92,7 @@ npm run dev
 
 ## 📸 Screenshots
 
-> *(Add actual screenshots or UI previews if available)*
+![App Screenshot](readmeImage.PNG)
 
 ```
 📂 screenshots/
